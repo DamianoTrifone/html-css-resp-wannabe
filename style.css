@@ -5,12 +5,21 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 420px) {
+    .row{
+      max-width: 80%;
+      width: 100%;
+      background-color: #F2F2CD;
+    }
+}
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
   width: 50%;
   float: left;
 }
+
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -22,6 +31,7 @@
 #lezioni {
   text-align: center;
 }
+
 
 /* BLOCCO STEPS */
 #steps .row>.left,
